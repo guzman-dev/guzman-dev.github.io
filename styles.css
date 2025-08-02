@@ -1,0 +1,60 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+body{
+    height: 90%;
+    background-color: gray;
+}
+
+p, h1, a{
+    color: rgb(223, 223, 223);
+}
+
+#titulo{
+    font-size: 40px;
+    width:auto;
+    text-align: center;
+}
+
+#icono{
+    display: block;
+    height: 20vh;
+    border: 2px double white;
+    border-radius: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduccion{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50vw;
+}
+
+.conocimientos{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50vw;
+}
+
+#navegacion{
+
+    position: fixed;
+    bottom: 20vh;
+    left: 20vw;
+    right: 20vw;
+
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.link{
+    background-color: rgb(0, 0, 0);
+    border-radius: 90px;
+    padding: 0.5em;
+}
