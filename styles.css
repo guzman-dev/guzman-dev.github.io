@@ -13,42 +13,45 @@ p, h1, a{
 }
 
 #titulo{
-    font-size: 40px;
+    font-size: 3vw;
     width:auto;
     text-align: center;
 }
 
 #icono{
     display: block;
-    height: 20vh;
+    height: 15vw;
     border: 2px double white;
     border-radius: 180px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.introduccion, .conocimientos{
+    font-size: 1.4vw;
+    width: 50vw;
+}
+
 .introduccion{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 50vw;
 }
 
 .conocimientos{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 50vw;
 }
 
 #navegacion{
-
-    position: fixed;
+    margin-top: 10vh;
     bottom: 20vh;
     left: 20vw;
     right: 20vw;
 
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 2vw;
 }
@@ -56,5 +59,46 @@ p, h1, a{
 .link{
     background-color: rgb(0, 0, 0);
     border-radius: 90px;
-    padding: 0.5em;
+    padding: 0.5rem;
+}
+
+@media screen and (width < 800px) {
+    #titulo{
+    font-size: 5vw;
+    }
+    .conocimientos, .introduccion{
+        font-size: 3vw;
+        width: 65vw;
+    }
+   #navegacion{
+    justify-self: center;
+    flex-direction: column;
+    margin-top: 5vh;
+    gap: 1.5vh;
+    text-align: center;
+   }
+   .link{
+    padding: 0.5;
+    font-size: 0.5rem;
+    width: 50vw;
+   }
+}
+
+@media screen and (width <= 425px){
+    #titulo{
+    font-size: 7vw;
+    }
+    .conocimientos, .introduccion{
+        font-size: 4.7vw;
+        width: 80vw;
+    }
+   #navegacion{
+    margin-top: 5vh;
+    gap: 1.5vh;
+   }
+   .link{
+    padding: 0.5;
+    font-size: 0.5rem;
+    width: 50vw;
+   }
 }
