@@ -6,26 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GuzmanPR</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1 id="titulo">Mi Portafolio</h1>
-    <img id="icono" src="Icono.png" alt="Modelado 3d minimalista de una casa, en la noche, con luces prendidas.">
-    <p class="introduccion">Hola, mi nombre es Guzmán Prieto, soy un nuevo desarrollador de software y aspirante
-        desarrollador de
-        videojuegos, que tambien está estudiando desarrollo web front-end.</p>
-    <br>
-    <p class="conocimientos">Del lado del software, tengo experiencia con el lenguaje de programación Java,<br>
-        del lado de los videojuegos, tengo experiencia usando el motor de juegos Godot
-            Engine, al igual que su lenguaje personalizado GDScript.</p>
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link" href="index.html">Proyectos</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link" href="index.html">Github</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link" href="index.html">itch.io</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link" href="index.html">Contacto</a>
+                </li>
+            </ul>
 
-    <div id="navegacion">
-        <a class="link" href="#titulo">Inicio</a>
-        <a class="link" href="#proyectos">Proyectos</a>
-        <a class="link" href="https://github.com/Guzman-Dev" target="_blank">Github</a>
-        <a class="link" href="https://guzman-dev.itch.io/" target="_blank"> itch.io</a>
-        <a class="link" href="#contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <div class="container my-3 text-center">
+        <h1 id="titulo">Mi Portafolio</h1>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img class="img-fluid" id="icono" src="Icono.png"
+                    alt="Modelado 3d minimalista de una casa, en la noche, con luces encendidas.">
+            </div>
+            <div class="col-8 flex-column">
+                <p class="introduccion">Hola, mi nombre es Guzmán Prieto, soy un nuevo desarrollador de software y
+                    aspirante
+                    desarrollador de
+                    videojuegos, que tambien está estudiando desarrollo web front-end.</p>
+                <br>
+                <p class="conocimientos">Del lado del software, tengo experiencia con el lenguaje de programación
+                    Java,<br>
+                    del lado de los videojuegos, tengo experiencia usando el motor de juegos Godot
+                    Engine, al igual que su lenguaje personalizado GDScript.</p>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
