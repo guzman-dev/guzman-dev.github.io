@@ -1,14 +1,51 @@
+
 *{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Roboto Condensed';
     font-size: 25px;
+    
 }
 
 body{
-    height: 90%;
-    background-color: gray;
+    min-height: 100vh;
+    background-image: url(img/Fondo\ Portafolio\ Oscuro.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
+#titulo{
+    color: rgb(252, 172, 0);
+    font-size: 3.5rem;
+    -webkit-text-stroke: 4px #00000077;
+}
+
+.nav-link{
+    color: rgb(209, 143, 2)!important;
+}
+
+
 .nav-link.active {
-        font-size: 1.25rem;
-        font-weight: bold;
-    }
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgb(252, 172, 0)!important
+        
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+#icono{
+    border-radius: 200px;
+    border: 10px solid rgba(0, 0, 0, 0.664);
+}
+
+.introduccion, .conocimientos{
+    font-size: 1.30rem;
+    color: rgb(252, 172, 0);
+    
+}
+
+.info{
+    border-radius: 180px;
+    background: radial-gradient(circle,rgba(0, 0, 0, 0.62) 50%, rgba(0, 0, 0, 0) 100%);
+}
